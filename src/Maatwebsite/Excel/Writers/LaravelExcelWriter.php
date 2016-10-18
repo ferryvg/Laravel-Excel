@@ -412,7 +412,6 @@ class LaravelExcelWriter {
      */
     protected function _render()
     {
-
         //Fix borders for merged cells
         foreach($this->getAllSheets() as $sheet){
 
