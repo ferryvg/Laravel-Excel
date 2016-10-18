@@ -37,6 +37,12 @@
     "mockery/mockery": "~0.9",
     "orchestra/testbench": "3.1.*"
   },
+  "repositories": [
+    {
+        "type": "vcs",
+        "url":  "https://github.com/Maatwebsite/Laravel-Excel"
+    }
+  ],
   "suggest": {
     "illuminate/http": "5.0.*|5.1.*|5.2.*|5.3.*",
     "illuminate/routing": "5.0.*|5.1.*|5.2.*|5.3.*",
